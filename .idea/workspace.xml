@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be8e9017-48f7-4d77-bae2-1a194537cfb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Design/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/dbredis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/.idea/xhprof.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/Xhprof.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/callgraph.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/css/xhprof.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/docs/index-fr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/docs/sample-callgraph-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/docs/sample-diff-report-flat-view.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/docs/sample-diff-report-parent-child-view.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/docs/sample-flat-view.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/docs/sample-parent-child-view.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/jquery/indicator.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/jquery/jquery-1.2.6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/jquery/jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/jquery/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/jquery/jquery.tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/jquery/jquery.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/js/xhprof_report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_html/typeahead.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_lib/display/typeahead_common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_lib/display/xhprof.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_lib/utils/callgraph_utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_lib/utils/xhprof_lib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xhprof/xhprof_lib/utils/xhprof_runs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wwwroot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wwwroot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wwwroot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wwwroot/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wwwroot/.idea/wwwroot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xhprof/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xhprof/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOS_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOS_api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOS_api/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/../IOS_api/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOS_api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../IOS_api/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOS_api/indexRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../IOS_api/indexRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/Application/Home/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/Application/Home/Controller/IndexController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/Application/Runtime/Logs/Admin/18_09_04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/Application/Runtime/Logs/Admin/18_09_04.log" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1472016397">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+          <entry key="php" value="88" />
+          <entry key="xhprof" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="88" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="php" value="5127" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="5127" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/indexRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homeRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$xhprof_data</find>
+      <find>dbhelper</find>
+      <find>$test_class</find>
+      <find>$request_data</find>
+      <find>203</find>
+      <find>$dbName</find>
+      <find>lrange</find>
+      <find>LPUSH</find>
+      <find>pagesize</find>
+      <find>getInstance</find>
+      <find>LRANGE</find>
+      <find>列表</find>
+      <find>$model</find>
+      <find>$result</find>
+      <find>$id</find>
+      <find>$user_info</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/index.php" />
+        <option value="$PROJECT_DIR$/api/common/dbhelper.php" />
+        <option value="$PROJECT_DIR$/api/listRequest.php" />
+        <option value="$PROJECT_DIR$/api/Response.php" />
+        <option value="$PROJECT_DIR$/../xhprof2/examples/sample.php" />
+        <option value="$PROJECT_DIR$/../xhprof2/xhprof_lib/utils/xhprof_lib.php" />
+        <option value="$PROJECT_DIR$/xhprof_lib/utils/xhprof_runs.php" />
+        <option value="$PROJECT_DIR$/xhprof_lib/utils/callgraph_utils.php" />
+        <option value="$PROJECT_DIR$/api/list.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/xhprof/xhprof_lib/utils/xhprof_runs.php" />
+        <option value="$PROJECT_DIR$/xhprof/Xhprof.php" />
+        <option value="$PROJECT_DIR$/configs/database.php" />
+        <option value="$PROJECT_DIR$/common/redis.php" />
+        <option value="$PROJECT_DIR$/database/IDBDatabase.php" />
+        <option value="$PROJECT_DIR$/common/loader.php" />
+        <option value="$PROJECT_DIR$/loader.php" />
+        <option value="$PROJECT_DIR$/Loader.php" />
+        <option value="$PROJECT_DIR$/common/Register.php" />
+        <option value="$PROJECT_DIR$/common/factory.php" />
+        <option value="$PROJECT_DIR$/common/base.php" />
+        <option value="$PROJECT_DIR$/database/dbhelper.php" />
+        <option value="$PROJECT_DIR$/database/dbredis.php" />
+        <option value="$PROJECT_DIR$/list.php" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/indexRequest.php" />
+        <option value="$PROJECT_DIR$/listRequest.php" />
+        <option value="$PROJECT_DIR$/homeRequest.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="f82f4609-7667-4598-b68a-0bc7a8d7b006" name="127.0.0.1" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTROM" host="127.0.0.1" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ShareDiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShareDiary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShareDiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShareDiary" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShareDiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShareDiary" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShareDiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShareDiary" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShareDiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShareDiary" type="462c0819:PsiDirectoryNode" />
+              <item name="xhprof" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/database" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.listRequest.php">
+    <configuration name="listRequest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/listRequest.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="list.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/list.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.list.php" />
+      <item itemvalue="PHP Script.listRequest.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.listRequest.php" />
+        <item itemvalue="PHP Script.list.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be8e9017-48f7-4d77-bae2-1a194537cfb7" name="Default Changelist" comment="" />
+      <created>1540710452426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540710452426</updated>
+      <workItem from="1540710458505" duration="6163000" />
+      <workItem from="1540724278428" duration="2873000" />
+      <workItem from="1540727546109" duration="587000" />
+      <workItem from="1541314854013" duration="3361000" />
+      <workItem from="1541485277927" duration="463000" />
+      <workItem from="1543123257857" duration="21448000" />
+      <workItem from="1543563158464" duration="6152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41047000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32921812" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/xhprof_lib/utils/xhprof_runs.php</url>
+          <line>83</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/xhprof_lib/utils/xhprof_runs.php</url>
+          <line>78</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/xhprof_lib/utils/callgraph_utils.php</url>
+          <line>111</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/xhprof/xhprof_lib/utils/xhprof_runs.php</url>
+          <line>80</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/xhprof/xhprof_lib/utils/xhprof_runs.php</url>
+          <line>139</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/indexRequest.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/indexRequest.php</url>
+          <line>85</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="test.php">
+        <watch expression="$this-&gt;dir" />
+        <watch expression="mkdir($this-&gt;dir,0755)" />
+        <watch expression="mkdir($this-&gt;dir,0755)" />
+        <watch expression="mkdir($this-&gt;dir,0755);" />
+        <watch expression="mkdir($this-&gt;dir,0755)" />
+        <watch expression="mkdir($this-&gt;dir,0755)" />
+        <watch expression="mkdir($this-&gt;dir,0700)" />
+        <watch expression="mkdir($this-&gt;dir,0700)" />
+        <watch expression="mkdir($this-&gt;dir,0755)" />
+        <watch expression=" mkdir($this-&gt;dir,0755)" />
+      </configuration>
+      <configuration name="list.php">
+        <watch expression="!(static::$redis_con instanceof \Redis)" />
+        <watch expression="!(static::$redis_con instanceof \Redis)" />
+        <watch expression="self::$redis_con" />
+        <watch expression="static::$redis_con instanceof \Redis" />
+        <watch expression="static::$redis_con instanceof \Redis" />
+      </configuration>
+      <configuration name="home.php">
+        <watch expression="!$listdata" />
+        <watch expression="$listdata" />
+        <watch expression="$base-&gt;pagesize" />
+        <watch expression="$page_data['begin']" />
+        <watch expression="$page_data['end']" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/indexRequest.php" />
+    <entry file="file://$PROJECT_DIR$/api/common/dbhelper.php" />
+    <entry file="file://$PROJECT_DIR$/api/Response.php" />
+    <entry file="file://$PROJECT_DIR$/xhprof/inject.php" />
+    <entry file="file://$PROJECT_DIR$/../xhprof2/xhprof_lib/utils/xhprof_lib.php" />
+    <entry file="file://$PROJECT_DIR$/../xhprof2/examples/sample.php" />
+    <entry file="file://$PROJECT_DIR$/xhprof_html/js/xhprof_report.js" />
+    <entry file="file://$PROJECT_DIR$/api/index.php" />
+    <entry file="file://$PROJECT_DIR$/api/listRequest.php" />
+    <entry file="file://$PROJECT_DIR$/xhprof_lib/utils/xhprof_runs.php" />
+    <entry file="file://$PROJECT_DIR$/xhprof_lib/utils/callgraph_utils.php" />
+    <entry file="file://$PROJECT_DIR$/api/list.php" />
+    <entry file="file://$PROJECT_DIR$/../xhprof/index.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="1168" column="9" selection-start-line="1168" selection-start-column="9" selection-end-line="1168" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xhprof/tmp/5bd5a73c3b498.xhprof_foo.xhprof" />
+    <entry file="file://$PROJECT_DIR$/xhprof/xhprof_lib/utils/xhprof_runs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/IDBDatabase.php" />
+    <entry file="file://$PROJECT_DIR$/configs/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/redis/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#108#130#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/dbhelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="154" column="20" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/dbredis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="872" column="33" selection-start-line="872" selection-start-column="28" selection-end-line="872" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xhprof/Xhprof.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
